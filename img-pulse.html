@@ -1,0 +1,33 @@
+<template>
+    <style>
+        .ImgPulse-photo {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            border-radius: 1000px;
+            padding: 5px;
+            border: 2px solid #efefef;
+            background: #fdfdfd;
+        }
+
+        .ImgPulse-pulse {
+            position: absolute;
+            left:50%;
+            top: 50%;
+            width: 500px;
+            height:500px;
+            z-index: -1;
+            transform:translateY(-50%) translateX(-50%);
+            border-radius: 1000px;
+            opacity: 0.3;
+            border: 2px solid transparent;
+        }
+    </style>
+
+    <img src="" class="ImgPulse-photo" alt="Image pulse photo" />
+    <div class="ImgPulse-pulse"></div>
+</template>
+
+<script src="img-pulse.js"></script>

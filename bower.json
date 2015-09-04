@@ -1,0 +1,17 @@
+{
+  "name": "img-pulse",
+  "version": "0.1.0",
+  "description": "A web component that creates a Tinder-esque image pulse.",
+  "license": "MIT",
+  "main": "img-pulse.html",
+  "keywords": [
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.0"
+  }
+}
